@@ -14,7 +14,7 @@ pnpm build
 ### Usage detection does not work for project references
 
 - Line 1 of [App.tsx](./packages/consumer/src/app.tsx) should highlight `Example1` and navigate to it on ctrl+click. Its source symbol is not detected.
-- [example.tsx](./packages/react-lib-1/src/components/example-1/example-1.tsx)
+- [example-1.tsx](./packages/react-lib-1/src/components/example-1/example-1.tsx)
     - The component's usage in the dependent package is not detected.
 
 The root tsconfig.json references a tsconfig.lib.json which is the TS config for the react-lib-1 package.
