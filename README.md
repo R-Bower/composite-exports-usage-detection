@@ -1,0 +1,1 @@
+# Webstorm Error Template
