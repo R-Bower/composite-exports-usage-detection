@@ -37,7 +37,7 @@ async function main(argv: string[]) {
     platform: "node",
     sourcemap: true,
     target: "es2023",
-    tsconfig: "tsconfig.lib.json",
+    tsconfig: "tsconfig.json",
   }
 
   const watch = hasArg(argv, "--watch")

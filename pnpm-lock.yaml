@@ -66,9 +66,9 @@ importers:
 
   packages/consumer:
     dependencies:
-      '@project/react-lib':
+      '@project/react-lib-1':
         specifier: workspace:^1
-        version: link:../react-lib
+        version: link:../react-lib-1
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -113,7 +113,7 @@ importers:
         specifier: ^6.3.1
         version: 6.3.3(@types/node@22.15.2)(tsx@4.19.3)
 
-  packages/react-lib:
+  packages/react-lib-1:
     dependencies:
       react:
         specifier: ^19.1.0

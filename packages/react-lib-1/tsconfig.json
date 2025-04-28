@@ -1,0 +1,14 @@
+{
+  "files": [],
+  // uncomment these lines to fix detection
+//  "include": ["./src"],
+//  "compilerOptions": {
+//    "baseUrl": "./",
+//    "outDir": "./dist"
+//  },
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    }
+  ]
+}
